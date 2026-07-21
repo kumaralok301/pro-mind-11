@@ -201,6 +201,7 @@ p.lede { font-size: 1.12rem; color: var(--text-muted); max-width: 50ch; }
 @media (max-width: 800px) { .founder-hero { grid-template-columns: 1fr; } }
 .founder-creds { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.6rem; }
 .founder-creds span { font-family: var(--display); font-size: 0.78rem; font-weight: 600; background: var(--offwhite); border: 1px solid var(--border); color: var(--navy-800); padding: 0.5rem 0.9rem; border-radius: 20px; }
+.section-dark .founder-creds span { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.18); color: #fff; }
 
 /* FAQ accordion */
 .faq-item { border-bottom: 1px solid var(--border); }
